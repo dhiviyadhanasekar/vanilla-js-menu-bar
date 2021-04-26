@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  background-color: lavender;
+  cursor: pointer;
+  justify-content: center;
+  padding: 8px;
+}
+
+ul li {
+  margin-right: 4px;
+}
+
+ul ul {
+  display: flex;
+  flex-direction: column;
+  background: lavenderblush;
+  position: absolute;
+  padding-left: 0px;
+  margin-left: 10px;
+}
+
+ul li ul li {
+  padding: 4px;
+  margin-right: 0px !important;
+}
+
+ul ul li:hover {
+  background-color: lightblue;
+}
+
+.hidden {
+  display: none;
+}
